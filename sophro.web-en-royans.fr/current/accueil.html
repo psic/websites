@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<head>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  		<meta http-equiv="Content-Language" content="fr" />
+ 	 	<meta name="Description" content="site d'une sophrologue diplômée à Grenoble qui propose des consultations à domicile"/>
+  		<meta name="Keywords" content="sophrologie, grenoble, PNL, psychologie, consultation, domicile"/>
+  		<title>Sophrologie &agrave; Grenoble &agrave; votre domicile</title>
+		<style type="text/css"></style><link rel="stylesheet" href="sophro.grenoble.css" type="text/css"/>
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19159780-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</head>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+	<script type="text/javascript">
+	$(document).ready( function()
+		{ 		
+                $("#lien_tarif").click(function()
+		   {
+			$('#contenu').load("pratiquer_tarifs.html");
+			$("#menu li").removeClass("active");		
+			 $("#pratiquer").addClass("active");	 
+			$('#barre_laterale_droite').load("barre_laterale_droite.html");
+			$('#barre_laterale_gauche').load("pratiquer_menu.html", function() 
+					{
+	        		    $('#tarifs').addClass("active");
+						$('#pratiquer_menu li').click(function()
+						   {
+					  		 $('#pratiquer_menu li').removeClass("active");		
+							 jQuery(this).addClass("active");	 
+							 switch(this.id){  
+				        			case "en_pratique": 
+				          	  			$('#contenu').load("pratiquer.html");
+									break;
+								case "seance_type":
+									$('#contenu').load("pratiquer_seancetype.html");
+									break;
+				  				/**case "planning":
+								$('#contenu').load("pourquoi.html");
+								break;
+								case "thematique":
+								$('#contenu').load("entreprises.html");
+								break;**/
+								case "tarifs":
+									$('#contenu').load("pratiquer_tarifs.html");
+									break;
+						}
+				   		});
+					});
+
+		});
+		});
+	</script>	
+	</head>
+	<body>
+	<div style="text-align:justify;">
+					<!--La pratique de la sophrologie apporte des moyens simples et efficaces pour :
+
+							 
+							<ul style="color: rgb(51, 0, 51); background-color: rgb(255, 204, 255);">
+							<li>Préserver votre santé,</li>
+							<li>Gestion du stress et des émotions,</li>
+							<li>Affirmation et éstime de soi,</li>
+							<li>Retrouver le sommeil réparateur,</li>
+							<li>Relaxation et bien-être,</li>
+							<li>Affirmation et l'estime de soi,</li>
+							<li>Développement des capacités de concentration, de mémorisation et d'attention,</li>
+							<li>Préparation à un événement anxiogène,</li>
+							<li>Acceptation d&#8217;un passé difficile,</li>
+							<li>Accompagnement à des changements de vie personnelle ou professionnelle,</li>
+							<li>Libérer toutes vos tensions,</li>
+							<li>Développer vos capacités d&#8217;action et optimiser votre potentiel de réussite,</li>
+							<li>ou tout simplement mieux satisfaire vos valeurs de vie.</li>
+							</ul>
+ -->
+					</div>
+					<div style="text-align:justify">
+						Accessible à tous, cette discipline de développement personnel et de soutien thérapeutique
+						propose des séances de groupe ainsi que des séances individuelles.
+						Les séances suivent une progression en fonction de l&#8217;objectif à
+						atteindre et font appel à des techniques adaptées à l&#8217;apprenant
+						(techniques respiratoires, relaxation&nbsp;: Schultz, Jacobson, mouvements
+						simples de yoga, visualisation, ...)
+
+						<br/>
+						<br/>
+						N&#8217;hésitez pas à me joindre pour en savoir plus ou prendre rendez-vous :<br/>
+					</div>
+
+					<center>
+					<table>
+						<tr>
+							<td><img style="color: rgb(102, 51, 102);" alt="téléphone : " src="ressources/telephone.png"  width="30" height="30" align="bottom"/></td>
+							<td><big>06 - 87 - 17 - 75 - 41</big></td>
+						</tr>
+						<tr>
+							<td style="font-size:30px;">@</td>
+							<td><big>sophro.grenoble@free.fr</big></td>
+						</tr>
+					</table>
+					</center>
+					<BR/>
+					<div style="text-align:center">
+						Heïdi Le Bourg,<BR/>
+						Titulaire du diplôme de sophrothérapeute et communication PNL de l'école de sophrologie de
+						Chambéry (Elke Coisnon)
+						<br/>
+						Diplômée de psychologie
+						<br/>
+						<br/>
+						<BR/>
+						<div id="lien_tarif">Détails des préstations & tarifs</div>
+					</div>
+					<br/>
+					
+			</body>
+</html>			

@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  		<meta http-equiv="Content-Language" content="fr" />
+ 	 	<meta name="Description" content="site d'une sophrologue diplômée à Grenoble qui propose des consultations à domicile"/>
+  		<meta name="Keywords" content="sophrologie, grenoble, PNL, psychologie, consultation, domicile"/>
+  		<title>Sophrologie &agrave; Grenoble &agrave; votre domicile</title>
+		<style type="text/css"></style><link rel="stylesheet" href="sophro.grenoble.css" type="text/css"/>
+
+  		<!--[if IE]><style type="text/css" media="screen">@import url(css/ie.css);</style><![endif]-->
+  		<!--[if lte IE 6]><style type="text/css" media="screen">@import url(css/ie6.css);</style><![endif]-->
+	
+	</head>
+	<body>
+	
+		<script src="js/lib/jquery-1.5.1.js" type="text/javascript"></script>
+		<script src="js/lib/jquery.innerfade.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready( function()
+		{ 
+		
+		  $('#barre_laterale_droite').load("fade_droite.html");
+		  $('#barre_laterale_gauche').load("fade_gauche.html", function() {
+                  $('.fade').innerfade({ speed: 'slow', timeout: 5000, type: 'random', containerheight: '1.5em' }); 
+          		  $('.fade1').innerfade({ speed: 'slow', timeout: 10000, type: 'random', containerheight: '1.5em' });
+		 		  $('.fade2').innerfade({ speed: 'slow', timeout: 7000, type: 'random_start', containerheight: '1.5em' });
+  		 });
+		 		
+               $('#contenu').load("Accueil.html");
+		 
+		
+		 $("#menu li").click(function()
+		   {
+		  	 $("#menu li").removeClass("active");		
+			 jQuery(this).addClass("active");	 
+			 switch(this.id){  
+        		case "accueil": 
+            		$('#contenu').load("Accueil.html");
+            		$('#barre_laterale_droite').load("fade_droite.html");
+            		$('#barre_laterale_gauche').load("fade_gauche.html", function() {
+                  $('.fade').innerfade({ speed: 'slow', timeout: 5000, type: 'random', containerheight: '1.5em' }); 
+          		  $('.fade1').innerfade({ speed: 'slow', timeout: 10000, type: 'random', containerheight: '1.5em' });
+		 		  $('.fade2').innerfade({ speed: 'slow', timeout: 7000, type: 'random_start', containerheight: '1.5em' });
+  		 });
+           			 	break;
+				case "pratiquer":
+					$('#contenu').load("pratiquer.html");
+					$('#barre_laterale_droite').load("barre_laterale_droite.html");
+            		$('#barre_laterale_gauche').load("pratiquer_menu.html", function() {
+        		          $('.fade').innerfade({ speed: 'slow', timeout: 5000, type: 'random', containerheight: '1.5em' }); 
+          				  $('.fade1').innerfade({ speed: 'slow', timeout: 10000, type: 'random', containerheight: '1.5em' });
+		 		  		  $('.fade2').innerfade({ speed: 'slow', timeout: 7000, type: 'random_start', containerheight: '1.5em' });
+  						 });
+					break;
+  				case "pourquoi":
+					$('#contenu').load("pourquoi.html");
+					$('#barre_laterale_droite').load("barre_laterale_droite.html");
+            		$('#barre_laterale_gauche').load("fade_gauche.html", function() {
+                	  $('.fade').innerfade({ speed: 'slow', timeout: 5000, type: 'random', containerheight: '1.5em' }); 
+          			  $('.fade1').innerfade({ speed: 'slow', timeout: 10000, type: 'random', containerheight: '1.5em' });
+		 			  $('.fade2').innerfade({ speed: 'slow', timeout: 7000, type: 'random_start', containerheight: '1.5em' });
+  					});
+					break;
+				case "entreprise":
+					$('#contenu').load("entreprises.html");
+					$('#barre_laterale_droite').load("barre_laterale_droite.html");
+            		$('#barre_laterale_gauche').load("fade_gauche.html", function() {
+            	      $('.fade').innerfade({ speed: 'slow', timeout: 5000, type: 'random', containerheight: '1.5em' }); 
+          			  $('.fade1').innerfade({ speed: 'slow', timeout: 10000, type: 'random', containerheight: '1.5em' });
+		 		 	  $('.fade2').innerfade({ speed: 'slow', timeout: 7000, type: 'random_start', containerheight: '1.5em' });
+  					 });
+					break;
+				case "sophrologie":
+					$('#contenu').load("sophrologie.html");
+					$('#barre_laterale_droite').load("barre_laterale_droite.html");
+            		$('#barre_laterale_gauche').load("sophrologie_menu.html", function() {
+                  		$('.fade').innerfade({ speed: 'slow', timeout: 5000, type: 'random', containerheight: '1.5em' }); 
+          		  		$('.fade1').innerfade({ speed: 'slow', timeout: 10000, type: 'random', containerheight: '1.5em' });
+		 		  		$('.fade2').innerfade({ speed: 'slow', timeout: 7000, type: 'random_start', containerheight: '1.5em' });
+  		 				});
+					break;
+				case "liens":
+					$('#contenu').load("contact.html");
+					$('#barre_laterale_droite').load("barre_laterale_droite.html");
+            		$('#barre_laterale_gauche').load("fade_gauche.html", function() {
+                  		$('.fade').innerfade({ speed: 'slow', timeout: 5000, type: 'random', containerheight: '1.5em' }); 
+          		  		$('.fade1').innerfade({ speed: 'slow', timeout: 10000, type: 'random', containerheight: '1.5em' });
+		 		  		$('.fade2').innerfade({ speed: 'slow', timeout: 7000, type: 'random_start', containerheight: '1.5em' });
+  		 				});
+					break;
+				case "qui":
+					$('#contenu').load("quijesuis.html");
+					$('#barre_laterale_droite').load("barre_laterale_droite.html");
+            		$('#barre_laterale_gauche').load("fade_gauche.html", function() {
+                  		$('.fade').innerfade({ speed: 'slow', timeout: 5000, type: 'random', containerheight: '1.5em' }); 
+          		  		$('.fade1').innerfade({ speed: 'slow', timeout: 10000, type: 'random', containerheight: '1.5em' });
+		 		  		$('.fade2').innerfade({ speed: 'slow', timeout: 7000, type: 'random_start', containerheight: '1.5em' });
+  					 });
+					break;
+				}
+		   });
+
+
+
+		} ); 
+	</script> 
+	
+	
+	
+		<div id="banniere_titre">
+			<div id="logo_gauche">
+ 				<img src="ressources/logo_hg.jpg" width="200" height="157" border="0" alt="Logo" align="left"/>
+			</div>
+			<p id="titre">Sophrologie &agrave; Grenoble &agrave; votre domicile avec Heïdi Le Bourg</p>
+			<div id="logo_droite">
+				<img src="ressources/logo_hd.jpg" width="200" height="157" border="0" alt="Logo" align="right"/>
+			</div>
+		</div>
+
+	<div id="conteneur_bas">
+		<div id="barre_laterale_gauche">
+					
+		</div>
+		<div id="milieu">
+			<div id="menu">
+  				<ul id="onglets">
+   				<li id="accueil" class="active">Accueil</li>
+    				<li id="pratiquer">Pratiquer la sophrologie</li>
+    				<li id="pourquoi">Pour qui ? Pourquoi ?</li>
+    				<li id="sophrologie">La sophrologie</li>
+    				<li id="entreprise">La sophrologie en entreprise</li>
+    				<li id="liens">Liens</li>
+    				<li id="qui">Qui suis je ?</li>
+    			</ul>
+			</div>
+
+			<div id="contenu">
+			</div>
+			</div>
+			<div id="barre_laterale_droite">
+									
+			</div>
+		</div>
+
+		<div id="footer">
+		<small><div style="text-align: center;">Identifiant SIRET 514 739 549 00012 dispensé d'immatriculation en application de l'article L.123-1-1 du code du commerce.</div></small>
+		<table>
+
+			<tr>
+				<td>
+				<!-- phpmyvisites -->
+				<a href="http://st.free.fr/" title="phpMyVisites | Open source web analytics" onclick="window.open(this.href);return(false);">
+				<script type="text/javascript">
+				<!--
+				var a_vars = Array();
+			var pagename='';
+			var phpmyvisitesSite = 169047;
+			var phpmyvisitesURL = "http://st.free.fr/phpmyvisites.php";
+			//-->
+			</script>
+			<script language="javascript" src="http://st.free.fr/phpmyvisites.js" type="text/javascript"></script><object>
+			</object></a><div style="text-align: right;"><a href="http://st.free.fr/" title="phpMyVisites | Open source web analytics" onclick="window.open(this.href);return(false);"><object><noscript><p>phpMyVisites | Open source web analytics
+			<img src="http://st.free.fr/phpmyvisites.php" alt="Statistics"
+			style="border:0" />
+			</p></noscript></object></a>
+			</td>
+			<td>
+			</div><a href="http://st.free.fr/" title="phpMyVisites | Open source web analytics" onclick="window.open(this.href);return(false);"><object>
+			</object></a><!-- /phpmyvisites -->
+			<a href="http://www.koifaire.com/rhone-alpes/">
+			<img src="http://www.koifaire.com/images/vukoifaire.gif" style="width:88px; height:12px; border:0;" title="Koifaire" alt="Guide Clubs de Sports en Rhône-Alpes" align=bottom />
+			</a>
+			</td>
+			<td>
+			<marquee  scrollamount="1" scrolldelay="5" onmouseover="this.stop()"
+			 onmouseout="this.start()"><font style="font-size: 9px; font-weight: normal; font-family:arial;">L'activité de <a href="http://www.koifaire.com/rhone-alpes/sophrologie-71893.html" style="font-size: 9px; font-weight: normal; color:#125eb3; font-family:arial;">Sophrologie  à Grenoble</a> à été acceptée sur Koifaire <a href="http://www.koifaire.com/" style="font-size: 9px; font-weight: normal; color:#125eb3; font-family:arial;">Guide Loisirs</a> et le portail des <a href="http://www.koifaire.com/rhone-alpes/sante/" style="font-size: 9px; font-weight: normal; color:#125eb3; font-family:arial;">Centres de soins, de beauté et de bien-être</a> en Rhône-Alpes dans la rubrique <a href="http://www.koifaire.com/rhone-alpes/sante/relaxation,et,sophrologie-269/" style="font-size: 9px; font-weight: normal; color:#125eb3; font-family:arial;">Relaxation et Sophrologie en Isère 38</a>!</font>
+			</marquee>
+			</td>
+			<td>
+				<small><div style="text-align: center;"><a href="mailto:psic@free.fr" style="text-decoration:underline;">@webmaster</a></div></small>
+				</td>
+			</tr>
+		</table>	
+		</div>
+
+
+	</body>
+</html>

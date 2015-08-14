@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  		<meta http-equiv="Content-Language" content="fr" />
+ 	 	<meta name="Description" content="site d'une sophrologue diplômée à Grenoble qui propose des consultations à domicile"/>
+  		<meta name="Keywords" content=""/>
+  		<title>Vipeyre!</title>
+		<style type="text/css"></style><link rel="stylesheet" href="vipeyre.css" type="text/css"/>
+		<link rel="icon" href="favicon.ico" />
+  		<!--[if IE]><style type="text/css" media="screen">@import url(css/ie.css);</style><![endif]-->
+  		<!--[if lte IE 6]><style type="text/css" media="screen">@import url(css/ie6.css);</style><![endif]-->
+	<script type="text/javascript">
+
+
+
+</script>
+	</head>
+	<body>
+		
+
+		<div class="conteneur_principal">
+			<div id="accueil">
+<BR/><BR/><BR/><BR/>
+				<div id="accueil2">
+				<BR/><BR/>
+				 Je fais des maison ossature bois, elles sont jolies, grande et petites,  bien comme il faut.
+				<BR/><BR/>
+				</div>
+				<div id="accueil1">
+			<H2>Mon métier : charpentier</H2>
+La charpente c'est pour faire des maisons, des toits, des cabanes, des mezzanines et des  bateau en bois :
+	<ul>
+    <li>Je charpente des maisons</li>
+    <li>Tu charpentes de l'isolation</li>
+    <li>il, elle ou charpente des parquets</li>
+    <li>nous charpentons des terrasses</li>
+    <li>vous charpentez des tuiles sur un toit</li>
+    <li>ils ou elles charpentent</li>
+    <li>... ainsi soit il...ou elle</li>
+	</ul>				
+</div>
+				
+			</div>
+			<div id="realisation">
+			<BR/><BR/><BR/><BR/>
+				<div id="realisation1">
+				<img src="ressources/travail.png" width="481" height="331" border="0" alt="cafard" align="center"/>
+				</div>
+
+				<div id="realisation2">
+				<H2>Réalisation en vrai bois</H2>
+			
+Plein de jolie photos !! Plein de jolie photos<BR/>
+Plein de jolie photos !! Plein de jolie photos<BR/>
+Plein de jolie photos !! Plein de jolie photos<BR/>
+Plein de jolie photos !! Plein de jolie photos<BR/>
+Plein de jolie photos !! Plein de jolie photos<BR/>
+Plein de jolie photos !! Plein de jolie photos<BR/>
+Plein de jolie photos !! Plein de jolie photos<BR/>
+Plein de jolie photos !! Plein de jolie photos<BR/>
+Plein de jolie photos !! Plein de jolie photos<BR/>
+Plein de jolie photos !! Plein de jolie photos<BR/>
+
+
+<BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/>
+				</div>
+			</div>
+
+
+			<div id="expe">
+<BR/><BR/><BR/><BR/>
+				<div id="expe2">
+					<img src="ressources/portrait.png" width="476" height="312" border="0" alt="cafard" align="center"/>
+				</div>
+	 			 <div id="expe1">
+				<H2>Vincent Peyre</H2>
+<BR/><BR/><BR/><BR/>
+	Je suis Vincent Peyre, Charpentier de son état, je suis grand beau et fort, et j'adore faire des trucs avec du bois! Je fais partie de la SCOP Cabestan. Je suis charpentier depuis que la charpente existe...d'ailleurs, fut un temps où on m'appelait Joseph.<BR/>
+	je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!je suis grand beau et fort, et j'adore faire des trucs avec du bois!
+				</div>
+			
+			</div>
+
+						<div id="contact">
+<BR/><BR/><BR/><BR/>
+						<div id="contact1">
+					<p class = "HLB">Vincent Peyre</>
+					<p class= "HLB2">Charpentier<br>
+					Grenoble</p>
+					<center>
+					<table>
+						<tr>
+							<td><img alt="téléphone : " src="ressources/telephone.png"  width="30" height="30" align="bottom"></td>
+							<td><big>XX - XX - XX - XX - XX</big></td>
+						</tr>
+						<tr>
+							<td style="font-size:30px;">@</td>
+							<td><big>xxxx@xxxx.xx</big></td>
+					</tr>
+					</table>
+					</center>
+					</div>
+ 				<BR/> <BR/>
+			<form action="" method="post" id="fcontact" >
+			   <table>
+			    <tr>
+			        <td><label for="nom">Nom :</label></td>
+			        <td><input type="text" id="nom" /></td>
+			    </tr>
+			    <tr>
+			        <td><label for="courriel">Courriel :</label></td>
+			        <td><input type="email" id="courriel" /></td>
+			    </tr>
+			    <tr>
+			        <td><label for="telephone">Téléphone :</label></td>
+			        <td><input type="tel" id="telephone 	" /></td>
+			    </tr>
+			    	
+			    <tr>
+			        <td><label for="message">Message :</label></td>
+			        <td><textarea id="message"></textarea></td>
+			    </tr>
+			    </table>
+				<button type="submit">Envoyer votre message</button>
+			</form>
+			
+			</div>
+			<BR/>
+			<BR/>
+			<BR/>
+<BR/>
+			<BR/>
+			<BR/>
+		</div>
+		
+
+		<div class="banniere_titre"> 
+			<div id="logo_gauche">
+ 				<img src="ressources/logo_hg.png" border="0" alt="Logo" align="left"/>
+			</div>
+			<div id="logo_droite">
+				<img src="ressources/logo_hd.png" border="0" alt="Logo" align="right"/>
+			</div>
+			<p class="titre" id="t1">Charpente </p>
+			<p class="titre" id="t2">Grenoble et sa région</p>
+			<p class="titre" id="t3">Vincent Peyre</p>
+			
+			<div id="menu">
+				<a href="#accueil" >Accueil</a> | <a href="#realisation">Réalisation</a> | <a href="#expe">Experience</a> | <a href="#contact">Me Contacter</a>
+			</div>
+		</div>
+		<div id="footer">
+			
+		Identifiant SIRET XXXX XXX XXXX XXX dispensé d'immatriculation en application de l'article L.123-1-1 du code du commerce.
+		</div>
+
+
+	</body>
+</html>

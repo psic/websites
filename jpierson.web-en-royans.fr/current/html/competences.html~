@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  		<meta http-equiv="Content-Language" content="fr" />
+ 	 	<meta name="Description" content=""/>
+  		<meta name="Keywords" content=""/>
+  		<title>TODO </title>
+		<style type="text/css"></style><link rel="stylesheet" href="./css/normal.css" type="text/css"/>
+
+  		<!--[if IE]><style type="text/css" media="screen">@import url(css/ie.css);</style><![endif]-->
+  		<!--[if lte IE 6]><style type="text/css" media="screen">@import url(css/ie6.css);</style><![endif]-->
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22342266-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</head>
+	<body>
+Du développement sur mesure pour les particuliers, ou pour les PME et artisans. Installation et configuration réseau.
+Modification, création, maintenance de logiciel, base de données ou site internet.
+Conseil et développement dans les domaines de la VoIP (notamment SIP), les technologies du web sémantique et les infrastructures contextuelles (domotique).
+Formation dans de nombreux domaines de l'informatique.
+Tout, tout, on peut tout faire!
+	</body>
+
+</html>
